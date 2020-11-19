@@ -1,0 +1,17 @@
+{
+  "name": "cra-template-fior-di-latte",
+  "version": "1.0.0",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template"
+  ],
+  "description": "A Fior Di Latte template for Create React App.",
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ]
+}
