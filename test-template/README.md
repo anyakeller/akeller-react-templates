@@ -17,8 +17,10 @@ You will also see any lint errors in the console.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Launches the test runner in the interactive watch mode.
+
+**warning:** App.test.js is the only test file which checks if the text `Fior Di Latte` is rendered to the page
+
 
 ### `npm run build`
 
