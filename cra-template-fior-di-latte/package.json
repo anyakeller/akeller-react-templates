@@ -12,6 +12,7 @@
     "url": "https://github.com/anyakeller/akeller-react-templates",
     "directory": "cra-template-fior-di-latte"
   },
+  "author": "Anya Keller",
   "engines": {
     "node": ">=10"
   },
