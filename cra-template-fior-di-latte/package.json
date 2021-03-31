@@ -1,6 +1,7 @@
 {
   "name": "@turtlefumes/cra-template-fior-di-latte",
   "version": "0.1.0",
+  "main": "template.json",
   "keywords": [
     "react",
     "create-react-app",
