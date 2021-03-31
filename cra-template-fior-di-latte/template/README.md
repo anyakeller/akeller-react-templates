@@ -1,11 +1,23 @@
-# Getting Started with Fior Di Latte CRA Template
+### CRA Template
+## Flavor: Fior Di Latte
+
+Fior Di Latte (better than vanilla) CRA theme using react-router and bootstrap 5.
+
+Includes:
+- `App.js` using react-router with routes to two pages
+- components:
+  - bootstrap navbar with active className
+  - header
+
+
+## Getting Started with Fior Di Latte CRA Template
 
 Fior Di Latte (better than vanilla) theme with react-router and navbar 
 
 This theme is built upon the create-react-app base theme
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 
