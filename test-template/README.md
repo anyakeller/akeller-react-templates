@@ -17,10 +17,9 @@ You will also see any lint errors in the console.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.
+Launches the test runner in the interactive watch mode.\
 
 **warning:** App.test.js is the only test file which checks if the text `Fior Di Latte` is rendered to the page
-
 
 ### `npm run build`
 

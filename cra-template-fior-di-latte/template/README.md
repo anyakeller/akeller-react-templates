@@ -1,5 +1,7 @@
 # Getting Started with Fior Di Latte CRA Template
 
+Fior Di Latte (better than vanilla) theme with react-router and navbar 
+
 This theme is built upon the create-react-app base theme
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
