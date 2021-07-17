@@ -1,7 +1,8 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
+import { PageData, PageOrder } from "../utils/PageData";
 
-function Navbar(props) {
+function Navbar() {
   return (
     <nav className="navbar navbar-expand-sm navbar navbar-dark bg-primary">
       <div className="container-fluid">
@@ -20,19 +21,19 @@ function Navbar(props) {
         </button>
         <div className="collapse navbar-collapse" id="navbar-collapse-content">
           <div className="navbar-nav">
-            <NavLink
-              exact={true}
-              to="/"
-              className="nav-link"
-              activeClassName="active">
-              Home
-            </NavLink>
-            <NavLink
-              to="/secondPage"
-              className="nav-link"
-              activeClassName="active">
-              Second Page
-            </NavLink>
+            {PageOrder.map((path, index) => {
+              const page = PageData[path];
+              return (
+                <NavLink
+                  exact
+                  to={page.pathname}
+                  className="nav-link"
+                  activeClassName="active"
+                  key={index}>
+                  {page.pageHeader}
+                </NavLink>
+              );
+            })}
           </div>
         </div>
       </div>

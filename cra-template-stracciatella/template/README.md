@@ -1,9 +1,22 @@
-# Getting Started with Fior Di Latte CRA Template
+### CRA Template
+## Flavor: Stracciatella
+
+Stracciatella CRA theme using react-router and bootstrap 5.
+
+Utilizes react's context and reducer apis.  
+
+Includes:
+- `App.js` using react-router with routes to two pages
+- components:
+  - bootstrap navbar with active className
+  - header
+
+## Getting Started with Stracciatella CRA Template
 
 This theme is built upon the create-react-app base theme
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 

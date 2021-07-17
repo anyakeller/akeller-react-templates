@@ -1,0 +1,25 @@
+{
+  "name": "@turtlefumes/cra-template-stracciatella",
+  "version": "0.1.1",
+  "main": "template.json",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template"
+  ],
+  "description": "A Stracciatella template for Create React App.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anyakeller/akeller-react-templates",
+    "directory": "cra-template-stracciatella"
+  },
+  "author": "Anya Keller",
+  "license": "MIT",
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ]
+}

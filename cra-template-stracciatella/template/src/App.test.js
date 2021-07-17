@@ -4,6 +4,6 @@ import App from './App';
 
 test('renders template name', () => {
   const { getByText } = render(<App />);
-  const linkElement = getByText(/Fior Di Latte/i);
+  const linkElement = getByText(/Stracciatella/i);
   expect(linkElement).toBeInTheDocument();
 });
